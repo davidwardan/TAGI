@@ -3,8 +3,6 @@
 requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
 C
 helper_functions.py,4/0/40f43db8ea6ef81dc73994c8c4c6f2a35bed29df
-;
-model.ipynb,f/9/f9ee11b7ec42c1648942a25bddb562f4210e9f6c
 8
 model.py,2/7/278cd37c2ec82a6143ba2ecb1b255880aa38b1d5
 7
