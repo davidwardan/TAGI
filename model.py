@@ -9,9 +9,9 @@ from TAGI import *
 np.random.seed(415)
 
 # generate training data
-x_train, y_train = generate_data(20, 0, 9)
+x_train, y_train = generate_data(20, 0, 3)
 # generate test data
-x_test, y_test = generate_data(20, 0, 9)
+x_test, y_test = generate_data(20, 0, 3)
 
 # Normalize the data between [0,1]
 x_train_norm = (x_train - np.mean(x_train)) / np.std(x_train)
@@ -55,7 +55,7 @@ print('mu_b1:', mu_b1.shape)
 print('mu_b2:', mu_b2.shape)
 
 # define the number of epochs
-n_epochs = 20
+n_epochs = 25
 log_ll_train = []
 log_ll_test = []
 
